@@ -5,7 +5,6 @@ from twilio.rest import Client
 
 API_KEY = os.environ.get("OWM_API_KEY")
 CITY = "Brisbane"
-auth_token = "23a5281f341d3b6711fe87c4c18098f1"
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 client = Client(account_sid, auth_token)
